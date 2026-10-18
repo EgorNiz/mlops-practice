@@ -1,6 +1,12 @@
 [core]
-    remote = origin
-['remote "myremote"']
-    url = ../../dvc_storage
+    remote = cloudru
+['remote "cloudru"']
+    url = s3://mlops-dvcbucket-nizametdinov/dvc_data
+    endpointurl = https://s3.cloud.ru
+    region = ru-central-1
+    access_key_id = 2e8a4ed7-f49f-4794-bc2c-6ccc14798516:f28099d1c2dd1338c6acdc23c140a28a
+    secret_access_key = 2ff19661907a54ac8ca754a9d377612a
 ['remote "origin"']
-    url = https://dagshub.com/EgorNiz/mlops-practice.dvc
+    url = s3://mlops-dvcbucket-nizametdinov
+    endpointurl = https://s3.cloud.ru
+    region = ru-central-1

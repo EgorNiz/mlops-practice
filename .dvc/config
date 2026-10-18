@@ -1,4 +1,6 @@
 [core]
-    remote = myremote
+    remote = origin
 ['remote "myremote"']
     url = ../../dvc_storage
+['remote "origin"']
+    url = https://dagshub.com/EgorNiz/mlops-practice.dvc

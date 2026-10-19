@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Check Health Endpoint
         run: |
-          curl --fail https://isenjhu-iris-api-nizametdinov.hf.space/health
+          curl --fail https://isenjhu/iris-api-nizametdinov.hf.space/health
       - name: Create Issue on Failure
         if: failure()
         env:

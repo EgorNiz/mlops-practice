@@ -1,12 +1,12 @@
 stages:
   prepare:
-    cmd: py src/prepare.py
+    cmd: python src/prepare.py
     deps:
       - src/prepare.py
     outs:
       - data/iris.csv
   train:
-    cmd: py src/train.py
+    cmd: python src/train.py
     deps:
       - data/iris.csv
       - src/train.py
